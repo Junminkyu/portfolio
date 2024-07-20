@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c6194374.css",
+    "main.js": "/portfolio/static/js/main.a517c1fe.js",
+    "static/media/parkswift.jpg": "/portfolio/static/media/parkswift.44feecd55dd7b162a317.jpg",
+    "static/media/profile_photo.png": "/portfolio/static/media/profile_photo.f9a05683e3cc75c23584.png",
+    "static/media/courseflowchart.jpg": "/portfolio/static/media/courseflowchart.73696feff198d8a97540.jpg",
+    "static/media/block_m-hex.png": "/portfolio/static/media/block_m-hex.a22e7e3e79e7499d8fe4.png",
+    "index.html": "/portfolio/index.html",
+    "main.c6194374.css.map": "/portfolio/static/css/main.c6194374.css.map",
+    "main.a517c1fe.js.map": "/portfolio/static/js/main.a517c1fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6194374.css",
+    "static/js/main.a517c1fe.js"
+  ]
+}
