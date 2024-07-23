@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c6194374.css",
-    "main.js": "/portfolio/static/js/main.a517c1fe.js",
+    "main.css": "/portfolio/static/css/main.9590f5de.css",
+    "main.js": "/portfolio/static/js/main.b17f926f.js",
     "static/media/parkswift.jpg": "/portfolio/static/media/parkswift.44feecd55dd7b162a317.jpg",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.28abdd1a0025fa0668e7.png",
+    "static/media/resume.png": "/portfolio/static/media/resume.8b0d7a41cf4bd597dfa3.png",
     "static/media/profile_photo.png": "/portfolio/static/media/profile_photo.f9a05683e3cc75c23584.png",
+    "static/media/openCourse.png": "/portfolio/static/media/openCourse.1e8a0121f0c114098cd3.png",
     "static/media/courseflowchart.jpg": "/portfolio/static/media/courseflowchart.73696feff198d8a97540.jpg",
     "static/media/block_m-hex.png": "/portfolio/static/media/block_m-hex.a22e7e3e79e7499d8fe4.png",
     "index.html": "/portfolio/index.html",
-    "main.c6194374.css.map": "/portfolio/static/css/main.c6194374.css.map",
-    "main.a517c1fe.js.map": "/portfolio/static/js/main.a517c1fe.js.map"
+    "main.9590f5de.css.map": "/portfolio/static/css/main.9590f5de.css.map",
+    "main.b17f926f.js.map": "/portfolio/static/js/main.b17f926f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6194374.css",
-    "static/js/main.a517c1fe.js"
+    "static/css/main.9590f5de.css",
+    "static/js/main.b17f926f.js"
   ]
 }
