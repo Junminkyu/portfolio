@@ -1,20 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.99befdb8.css",
-    "main.js": "/portfolio/static/js/main.1d48757b.js",
+    "main.js": "/portfolio/static/js/main.ecdf43cf.js",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.28abdd1a0025fa0668e7.png",
     "static/media/parkswift.png": "/portfolio/static/media/parkswift.72820e3730b2e84ba6b0.png",
     "static/media/resume.png": "/portfolio/static/media/resume.442a525e3de3a4b994a4.png",
     "static/media/profile_photo.png": "/portfolio/static/media/profile_photo.f9a05683e3cc75c23584.png",
     "static/media/openCourse.png": "/portfolio/static/media/openCourse.1e8a0121f0c114098cd3.png",
     "static/media/courseflowchart.jpg": "/portfolio/static/media/courseflowchart.73696feff198d8a97540.jpg",
+    "static/media/cse.png": "/portfolio/static/media/cse.4daaa7faa796eceabd4b.png",
+    "static/media/cheps.jpg": "/portfolio/static/media/cheps.8cd7d6781e3792e27985.jpg",
+    "static/media/epic.png": "/portfolio/static/media/epic.6b0de7c70e1231bbfca9.png",
     "static/media/block_m-hex.png": "/portfolio/static/media/block_m-hex.a22e7e3e79e7499d8fe4.png",
     "index.html": "/portfolio/index.html",
     "main.99befdb8.css.map": "/portfolio/static/css/main.99befdb8.css.map",
-    "main.1d48757b.js.map": "/portfolio/static/js/main.1d48757b.js.map"
+    "main.ecdf43cf.js.map": "/portfolio/static/js/main.ecdf43cf.js.map"
   },
   "entrypoints": [
     "static/css/main.99befdb8.css",
-    "static/js/main.1d48757b.js"
+    "static/js/main.ecdf43cf.js"
   ]
 }
