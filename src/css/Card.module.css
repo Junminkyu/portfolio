@@ -1,0 +1,66 @@
+.img{
+    margin: 16px;
+    height: 25rem;
+    width:35rem;
+    border-radius: 15px;
+}
+
+.photoHolder{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.card{
+    max-width: 345px;
+    border-radius: 25px;
+}
+
+.card:hover{
+    transform: scale(1.5);
+}
+
+.cover{
+    background-color: rgba(49, 49, 60, 0.14);;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media screen and (max-width: 1000px){
+    .element{
+        width:80vw;
+    }
+
+    .img{
+        margin: 16px;
+        height: 70vw;
+        width:70vw;
+        border-radius: 15px;
+    }
+    
+    .photoHolder{
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }
+    
+    .card{
+        max-width: 345px;
+        border-radius: 25px;
+    }
+    
+    .card:hover{
+        transform: scale(1.5);
+    }
+    
+    .cover{
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        background-color: rgba(255, 255, 255, 0.5);
+        border: 1px solid rgba(209, 213, 219, 0.3);
+    }
+}

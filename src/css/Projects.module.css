@@ -1,0 +1,16 @@
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.project{
+    margin-top: 0;
+}
+
+.card{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

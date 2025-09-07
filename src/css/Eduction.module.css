@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+*{
+    font-family: "Open Sans";
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.education{
+    font-weight: bold;
+}
+
+.title{
+    margin-top:200vh;
+    margin-top:15vh;
+    text-align: center;
+    font-size:50px;
+    font-weight:bold;
+    /* border-bottom: solid 3px black; */
+}
+
+.logo{
+    margin-top: 8vh;
+    margin-bottom: 4vh;
+    width:20vw;
+    height:14vw;
+    filter: drop-shadow(1px 1px 10px rgb(110, 110, 110));
+    
+}
+
+.college{
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.grid{
+    margin-top:10vh;
+    display:grid;
+    grid-template-rows: 4;
+    grid-template-columns: 5;
+    margin-bottom:20vh;
+    margin: 5vw;
+}
+
+.section{
+    margin-top:1vh;
+    margin-bottom:4vh;
+    padding: 4vh 8vh 4vh 8vh;
+    border-radius: 20%;
+    filter: drop-shadow(0 0 0.75rem grey);
+}
+
+.box{
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1vw;
+}
+
+.collegeName{
+    font-size: 40px;
+    margin-bottom: 2vh;
+    /* margin: 0 1vw; */
+}
+
+.gpa{
+    margin-top:20px;
+    font-size: 20px;
+    font-weight: initial;
+}
+
+.degree{
+    margin-top:10px;
+    font-size: 24px;
+    font-weight: initial;
+}
+
+.course{
+    text-align:center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.section > ul > li{
+    margin-top:10px;
+    font-weight: lighter;
+}
+
+.list{
+    text-align: left;
+}
+
+.collegeName{
+    width:30vw;
+    margin: 0 15px;
+    filter: drop-shadow(0 0 0.75rem grey);
+}
+
+.ul{
+    margin-top: 40px;
+}
+
+.graduate{
+    margin-top:5px;
+    font-size: 13px;
+}
+
+.number{
+    font-size: 30px;
+    font-weight: bold; 
+}
+
+@media screen and (max-width: 1000px){
+    .collegeName{
+        height:1.5vh;
+        margin: 0 15px;
+        filter: drop-shadow(0 0 0.75rem grey);
+    }
+
+    .section > ul > li{
+        margin-top:5px;
+        font-weight: lighter;
+        font-size:10px;
+    }
+
+    .course{
+        text-align:center;
+        font-size: 15px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .box{
+        text-align: center;
+        font-weight: lighter;
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: 1vw;
+    }
+
+    .section{
+        margin-top:1vh;
+        margin-bottom:4vw;
+        padding: 5px 20px 5px 20px;
+        border-radius: 20%;
+        filter: drop-shadow(0 0 0.75rem grey);
+    }
+
+    .ul{
+        margin-top: 20px;
+    }
+
+    .list{
+        font-size:10px;
+    }
+
+    .degree{
+        margin-top:1vh;
+        font-size: 12px;
+        font-weight: initial;
+    }
+
+    .graduate{
+        margin-top:1vh;
+        font-size: 8px;
+    }
+
+    .gpa{
+        margin-top:20px;
+        font-size: 10px;
+        font-weight: initial;
+    }
+
+    .number{
+        font-size:15px;
+    }
+    
+}
+    

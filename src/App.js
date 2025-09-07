@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import NavBar from './components/NavBar';
+import About from './components/About';
+import Education from './components/Education';
+import Works from './components/Works';
+// import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import styles from './App.module.css';
+import Skills from './components/Skills';
+import Footer from './components/Footer';
+import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
+
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className={styles.background}>
+      <NavBar/>
+      <ScrollContainer>
+        <ScrollPage>
+          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
+            <About/>
+          </Animator>
+        </ScrollPage>
+      </ScrollContainer>
+      <Works/>
+      <Projects/>
+      <Skills/>
+      <Education/>
+      <Contact/>
+      <Footer/>
+      {/* <Education/>
+      <Skills/>
+      <Projects/>
+      <Contact/> */}
+    </main>
   );
 }
 

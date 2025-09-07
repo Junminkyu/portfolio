@@ -1,0 +1,32 @@
+.contact{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 10vh; 
+    padding-bottom:10vh;  
+}
+
+.main{
+    margin-top: 30vh;
+    color:black;
+    padding-bottom: 15vh;
+}
+
+@media screen and (max-width: 1000px){
+    .contact{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main{
+        margin-top: 20vh; 
+    }
+}
