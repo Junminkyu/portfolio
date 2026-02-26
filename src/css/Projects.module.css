@@ -10,7 +10,8 @@
 }
 
 .card{
-    display:flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }

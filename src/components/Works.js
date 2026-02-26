@@ -4,6 +4,7 @@ import ActionAreaCard from './ProjectCard';
 import CSE from '../img/cse.png';
 import Epic from '../img/epic.png';
 import CHEPS from '../img/cheps.jpg';
+import UberFreight from '../img/uberfreight.png';
 import WorkCard from './WorkCard';
 import WorkMobileCard from './WorkMobileCard';
 
@@ -11,6 +12,13 @@ import WorkMobileCard from './WorkMobileCard';
 function Works(){
 
     let workArray = [
+        {
+            img: UberFreight,
+            location: "Uber Freight",
+            title: "Software Engineer Intern",
+            description: "Incoming Summer 2026",
+            duration: "Jun 2026 - Aug 2026"
+        },
         {
             img: CSE,
             location: "University of Michigan Computer Science & Engineering",

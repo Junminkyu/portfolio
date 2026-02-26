@@ -98,10 +98,11 @@ function Education() {
                     onMouseLeave={() => setHoveredIndex(null)}
                 >
                     <p className={styles.course}>Degree</p>
-                    <p className={styles.degree}>B.S.E in Computer Science</p>
-                    <p className={styles.graduate}>Expected Graduation Date: Dec 2025</p>
                     <p className={styles.degree}>M.S.E in Computer Science</p>
                     <p className={styles.graduate}>Expected Graduation Date: Dec 2026</p>
+                    <p className={styles.degree}>B.S.E in Computer Science</p>
+                    <p className={styles.graduate}>Expected Graduation Date: Dec 2025</p>
+                    
                 </div>
                 <div
                     className={styles.box}
@@ -125,11 +126,9 @@ function Education() {
                     onMouseLeave={() => setHoveredIndex(null)}
                 >
                     <p className={styles.course}>Activities</p>
-                    <div>
-                        <ui>
-                        <li>Void Tech</li> 
-                        <li>JSA</li>
-                        </ui>
+                    <div >
+                        <div>Void Tech</div>
+                        <div>JSA</div>
                     </div>
                 </div>
             </div>

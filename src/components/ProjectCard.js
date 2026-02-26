@@ -41,7 +41,9 @@ export default function MediaCard({img,title,description,tag,githubLink}) {
     marginTop: '50px',
     transition: 'transform 0.3s ease-in-out', // smooth transition
     transform: isHovered ? 'scale(1.08)' : 'scale(1)',
-    width: windowWidth < 1000 && "80vw",
+    width: windowWidth < 1000 ? "80vw" : "650px",
+    flexGrow: 0,    // prevents flexbox from stretching it
+    flexShrink: 0,
   }
 
   return (

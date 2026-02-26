@@ -31,7 +31,7 @@ function Projects(){
         {
             img:CourseFlow,
             title:"Course Flowchart",
-            description: "This website visualized prerequisite information for the University of Minnesota students",
+            description: "This website visualized prerequisite information for students to help them navigate which class to take",
             tag:["next.js","Course Hero API","Mermaid.js"],
             githubLink: "https://github.com/chaunmt/Interactive-Prerequisite-Flowchart"
         },

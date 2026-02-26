@@ -118,6 +118,10 @@
     font-weight: bold; 
 }
 
+.activity{
+    text-align: left;
+}
+
 @media screen and (max-width: 1000px){
     .collegeName{
         height:1.5vh;
